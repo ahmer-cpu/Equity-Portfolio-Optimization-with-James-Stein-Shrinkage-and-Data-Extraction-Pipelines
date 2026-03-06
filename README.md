@@ -16,6 +16,24 @@ This project implements advanced portfolio optimization techniques using Jamesâ€
 - Portfolio optimization algorithms
 - Performance analysis and backtesting tools
 
+## Repository Structure
+
+### data extraction/
+Python scripts for scraping and processing financial market data:
+- `scrape_S&P_ordered.py` - Scrape S&P 500 data in ordered sequence
+- `scrape_S&P_unordered.py` - Scrape S&P 500 data (unordered)
+- `savedata_allStocks.py` - Save data for all stocks in portfolio
+- `savedata_oneStock.py` - Save data for individual stock
+- `combine_CSVs.py` - Combine multiple CSV data files
+
+### portfolio optimization/
+Jupyter notebooks implementing portfolio optimization techniques:
+- `MVO.ipynb` - Mean-Variance Optimization implementation
+- `JSE.ipynb` - Jamesâ€“Stein Estimator implementation for shrinkage
+
+### data/
+Storage for extracted financial data (CSV files, Excel files) - not tracked in git
+
 ## Features
 
 - Automated data extraction from financial sources
@@ -26,5 +44,4 @@ This project implements advanced portfolio optimization techniques using Jamesâ€
 
 ## Languages
 
-**Primary:** Python, R
-**Supporting:** SQL (for data extraction)
+**Primary:** Python (Jupyter Notebook)
