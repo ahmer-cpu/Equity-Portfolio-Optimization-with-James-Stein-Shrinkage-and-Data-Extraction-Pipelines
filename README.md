@@ -32,7 +32,23 @@ Jupyter notebooks implementing portfolio optimization techniques:
 - `JSE.ipynb` - James–Stein Estimator implementation for shrinkage
 
 ### data/
-Storage for extracted financial data (CSV files, Excel files) - not tracked in git
+Extracted financial market data for portfolio analysis:
+
+#### Stock Data
+- `sp500_adjusted_close_2y_full.csv` - Complete 2-year adjusted close prices for all S&P 500 constituents
+- `sp500_adjusted_close_2y.csv` - Cleaned 2-year adjusted close prices for S&P 500 constituents
+- `retry_adjusted_close_2y.csv` - Reprocessed data for tickers that initially failed
+- `aapl_twoyearly_adjclose.csv` - Sample individual stock data (Apple Inc.)
+
+#### Reference Data
+- `sp500_tickers.csv` - List of S&P 500 ticker symbols used for data extraction
+- `constituents.csv` - S&P 500 constituent information (sector, industry, etc.)
+- `failed_tickers.csv` - Log of tickers that failed during data extraction
+
+#### Market Data
+- `daily-treasury-rates-2024.csv` - Daily U.S. Treasury rates for 2024 (risk-free rate proxy)
+- `daily-treasury-rates-2025.csv` - Daily U.S. Treasury rates for 2025 (risk-free rate proxy)
+- `Stocks Weekly.xlsx` - Weekly stock data compilation in Excel format
 
 ## Features
 
