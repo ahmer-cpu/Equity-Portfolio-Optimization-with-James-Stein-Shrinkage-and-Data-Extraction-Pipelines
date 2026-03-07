@@ -4,7 +4,7 @@ A comprehensive framework for equity portfolio optimization using James–Stein 
 
 ## Project Website
 
-- Website: https://ahmernadeem.com/research/numerical-monte-carlo-library.html
+- Website: https://ahmernadeem.com/research/portfolio-optimization.html
 - This page contains a project overview and a detailed paper-style survey of the methods and results in the literature, as well as the results from my implementation.
 
 ## Overview
@@ -15,6 +15,15 @@ This project implements advanced portfolio optimization techniques using James�
 - James–Stein shrinkage estimation for covariance matrices
 - Portfolio optimization algorithms
 - Performance analysis and backtesting tools
+
+## Data Sources
+
+The data extraction pipelines gather financial market data from the following sources:
+
+- **Yahoo Finance** - Historical stock prices and adjusted close data
+- **Slickcharts** - S&P 500 constituent lists and market data
+- **Wikipedia** - S&P 500 constituent information and metadata
+- **U.S. Department of Treasury** - Daily Treasury rates for risk-free rate calculations
 
 ## Repository Structure
 
