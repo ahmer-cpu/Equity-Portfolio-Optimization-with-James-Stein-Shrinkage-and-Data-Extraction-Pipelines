@@ -50,6 +50,35 @@ Extracted financial market data for portfolio analysis:
 - `daily-treasury-rates-2025.csv` - Daily U.S. Treasury rates for 2025 (risk-free rate proxy)
 - `Stocks Weekly.xlsx` - Weekly stock data compilation in Excel format
 
+## Dependencies
+
+### Data Extraction (`data extraction/`)
+The data extraction scripts require the following Python libraries:
+
+- **pandas** - Data manipulation and CSV processing
+- **beautifulsoup4** - HTML parsing for web scraping
+- **playwright** - Automated browser interaction for dynamic content (`savedata_allStocks.py`, `savedata_oneStock.py`)
+- **requests** - HTTP requests for web scraping (`scrape_S&P_ordered.py`)
+
+Install via pip:
+```bash
+pip install pandas beautifulsoup4 playwright requests
+playwright install  # Install browser binaries for Playwright
+```
+
+### Portfolio Optimization (`portfolio optimization/`)
+The Jupyter notebooks require:
+
+- **pandas** - Data manipulation and analysis
+- **numpy** - Numerical computations and matrix operations
+- **matplotlib** - Data visualization and plotting
+- **seaborn** - Statistical data visualization (used in `JSE.ipynb`)
+
+Install via pip:
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
 ## Features
 
 - Automated data extraction from financial sources
