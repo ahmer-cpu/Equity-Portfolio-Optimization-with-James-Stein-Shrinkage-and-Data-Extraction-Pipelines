@@ -5,7 +5,7 @@ A comprehensive framework for equity portfolio optimization using James–Stein 
 ## Project Website
 
 - Website: https://ahmernadeem.com/research/portfolio-optimization.html
-- This page contains a project overview and a detailed paper-style survey of the methods and results in the literature, as well as the results from my implementation.
+- This page provides comprehensive documentation of the portfolio optimization methodologies, James-Stein shrinkage techniques, implementation details, and performance analysis results.
 
 ## Overview
 
