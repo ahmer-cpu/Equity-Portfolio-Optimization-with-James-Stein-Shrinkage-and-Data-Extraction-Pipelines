@@ -63,3 +63,4 @@ output/
 config.ini
 credentials.json
 .env
+.claude/
